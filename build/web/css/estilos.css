@@ -1,0 +1,285 @@
+/*------------Fondos---------*/
+body{
+    background-color: gainsboro;
+}
+
+.panel-heading{
+    background-color: #2b2b2b !important;
+    color: greenyellow !important;
+}
+.panel-body{
+    color: #2b2b2b !important;
+    
+}
+.navbar{
+    background-color:  white;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: greenyellow !important;
+}
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+}
+#navbar a:link, #navbar a:visited{
+    font-weight: bold;
+    color: black !important;
+}
+#navbar a:hover, #navbar a:active{
+    color: greenyellow !important;
+}
+#Pie-Pagina{
+    background-color: white !important;
+    margin-top: 1%;
+    color: black;
+    
+}
+.ventanaLogin
+{
+  background: white;
+  width: 30%;
+  color:black;
+  box-shadow: 5px 5px 8px black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 33px;
+  min-height: 250px;
+  border-radius: 22px;
+  position: fixed;
+  left: 34%;
+  top: 20%;
+  display: none;
+}
+
+.ventanaCompra
+{
+  background: white;
+  width: 60%;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 25px;
+  min-height: 340px;
+  border-style: solid;
+  border-radius: 22px;
+  position: fixed;
+  left: 25%;
+  top: 8%;
+  display: none;
+}
+
+#FondoListaCategoria{
+  background: white;
+  width: 100%;
+  color:black;
+  font-size: 14px;
+  margin-top: 1%;
+  padding: 0.1%;
+  border-radius: 20px;
+}
+#FondoListaCategoria h2{
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold
+}
+#FondoRegistroLibro{
+  background: white;
+  width: 100%;
+  color:black;
+  font-size: 14px;
+  margin-top: 1%;
+  padding: 0.1%;
+  border-radius: 20px;
+}
+#FondoRegistroLibro h2{
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold
+}
+#FondoRegistroLibro div div div{
+    margin-top: 1%;
+    text-align: right
+}
+#FondoRegistroLibro div div div p{
+    margin-top: 5%;
+    text-align: right
+}
+#FondoRegistroLibro div tr th{
+    text-align: center
+}
+#FondoRegistroLibro div tr td{
+    text-align: center;
+    width: auto;
+}
+#menu-categoria{
+    background-color: #113f4d !important;
+    margin-top: -20px;
+    padding: 0.4%;
+    text-align: center;
+}
+
+.text-menu{
+    color:  white !important;
+    font-weight: bold;
+    text-align: center;
+    font-size: calc(1em+1vw);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+#menu p a:link, #menu li a:visited{
+    font-weight: bold;
+    color: white !important;
+}
+#menu p a:hover, #menu li a:active{
+    font-weight: bold;
+    color: gainsboro !important;
+}
+.barra-buscar{
+    background-color: #1b6d85 !important;
+    height: 35px;
+    margin-top: -10px;
+}
+
+/*-----------BOTONES-------------*/
+.btn-IS{
+    background: #1b6d85;
+    padding: 3px;
+    border:3px;
+    border-radius: 7px;
+    margin-top: -8px; margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0 none;
+    color: white;
+    
+}
+.btn-BC{
+    background-color:  grey;
+    padding: 3px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 3px; margin-left: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    border: white 1px double;
+    outline: 0 none;
+    width: auto;
+}
+.btn-CC{
+    background-color:  transparent;
+    padding: 3px;
+    border:3px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 3px; margin-right: 5px;
+    font-weight: bold;
+    color: white;
+    border: white 1px double;
+    outline: 0 none;
+    width: 100%; height: 29px;
+    float: right;
+}
+.btn-LT{
+    background-color:  #67b168;
+    padding: 3px;
+    border:3px;
+    text-align: center;
+    margin-top: -4px; margin-left: -90px;
+    font-size: calc(1em+1vw);
+    font-weight: bold;
+    color: white;
+    border: white 1px double;
+    outline: 0 none;
+    width: auto; height: auto;
+}
+.btn-CP{
+    background-color:  #eea236;
+    padding: 0.4em 3.5em 0.4em;
+    border:3px;
+    text-align: center;
+    margin-top: -18px;
+    font-size: calc(1em+1vw);
+    font-weight: bold;
+    color: white;
+    border: white 1px double;
+    outline: 0 none;
+    
+}
+
+/*-----------TextBox------------*/
+.txt-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-28px;
+    margin-left: 70px
+}
+.txt-buscar{
+    float: left;
+    margin-left: 15px;    margin-top: 3px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: white 1px double;
+    outline: 0 none;
+    color: white;
+    width: 35%;    height: 29px;
+    text-align: center;
+}
+.txt-buscar-fecha{
+    float: left;
+    margin-left: 15px;    margin-top: 3px;
+    border-radius: 7px;
+    background-color: grey;
+    border: white 1px double;
+    outline: 0 none;
+    color: white;
+    width: 20%;    height: 29px;
+    text-align: center;
+}
+.txt-sinopsis{
+    background-color: transparent;
+    border:2px;
+    color: black;
+    width: 100%;    height: 100%;
+    text-align: justify;
+    font-size: 10px;
+}
+.txt-tabla{
+    background-color: transparent;
+    border:2px;
+    color: black;
+    width: 100%;    height: 100%;
+    text-align: justify;
+}
+#input_bc::placeholder {
+  color:#edf3f2cb;
+  font-style: italic;
+}
+#centrar tr th{
+    text-align: center
+}
+#centrar tr td{
+    text-align: center
+}
+
+
+/*---------Logos---------*/
+.logo{
+    width: 230px;
+    height: 50px;
+    margin-top: -15px;
+    
+}
+.logo-PiePagina{
+    max-width:60%;
+    max-height: 4%;
+    margin-left: 10%;
+    margin-top: 3%;
+    align-items:  center
+}
